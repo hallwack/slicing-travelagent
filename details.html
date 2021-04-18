@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link href="public/css/tailwind.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- * Navbar * -->
+        <nav class="bg-primary z-30">
+            <div class="container mx-auto px-4 py-6">
+                <div class="flex flex-col md:flex-row space-y-4 md:space-y-0">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <a
+                                class="font-garamond font-light text-3xl sm:text-4xl text-white my-5"
+                                href="#"
+                                >travelagent.id</a
+                            >
+                        </div>
+                        <div>
+                            <button
+                                type="button"
+                                class="text-coolGray-100 focus:text-white focus:outline-none hover:text-white md:hidden"
+                            >
+                                <svg
+                                    class="h-6 w-6 fill-current"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4 6h16M4 12h16M4 18h16"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="hidden md:flex flex-col md:flex-row justify-end md:items-center md:space-x-10 w-full space-y-3 md:space-y-0 md:py-0"
+                    >
+                        <div
+                            class="flex flex-col md:flex-row md:space-x-8 font-public-sans text-white space-y-2 md:space-y-0"
+                        >
+                            <a
+                                href="#"
+                                class="block no-underline hover:text-secondary-600 transition-all duration-500"
+                                >Home</a
+                            >
+                            <a
+                                href="#"
+                                class="block no-underline hover:text-secondary-600 transition-all duration-500"
+                                >Paket Travel</a
+                            >
+                            <a
+                                href="#"
+                                class="block no-underline hover:text-secondary-600 transition-all duration-500"
+                                >Service</a
+                            >
+                        </div>
+                        <div
+                            class="flex flex-col md:flex-row md:space-x-5 space-y-3 md:space-y-0 items-start"
+                        >
+                            <button
+                                class="block bg-secondary-500 shadow-md hover:shadow-none text-white py-2 px-6 rounded-md hover:bg-secondary-600 transition-all duration-500"
+                            >
+                                Login
+                            </button>
+                            <button
+                                class="block bg-secondary-500 shadow-md hover:shadow-none text-white py-2 px-6 rounded-md hover:bg-secondary-600 transition-all duration-500"
+                            >
+                                Register
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="bg-gradient-to-b from-white to-coolGray-100">
+            <!-- * Breadcrumbs Section * -->
+            <section class="container mx-auto py-8 md:px-8 w-full">
+                <ol
+                    class="flex text-secondary-300 font-public-sans font-medium"
+                >
+                    <li class="px-2">
+                        <a href="#" class="hover:underline">Home</a>
+                    </li>
+                    <li class="text-coolGray-400 select-none">/</li>
+                    <li class="px-2">
+                        <a href="#" class="hover:underline">Paket Travel</a>
+                    </li>
+                    <li class="text-coolGray-400 select-none">/</li>
+                    <li class="px-2 text-secondary-600">Malaysia</li>
+                </ol>
+            </section>
+            <div
+                class="divide-y divide-secondary-300 divide-opacity-30 divide-y-2"
+            >
+                <div
+                    class="container mx-auto flex flex-col lg:flex-row lg:space-x-8 lg:px-8 lg:space-y-0 justify-center items-center lg:items-start space-y-6 pb-24 md:px-12"
+                >
+                    <!-- * Details Section * -->
+                    <section class="w-auto lg:w-8/12">
+                        <div
+                            class="border border-secondary-200 flex flex-col p-8 rounded-md space-y-4"
+                        >
+                            <h1
+                                class="text-4xl font-garamond font-semibold text-secondary-600"
+                            >
+                                Kuala Lumpur
+                            </h1>
+                            <div class="p-8">
+                                <div
+                                    class="flex flex-row items-center justify-center"
+                                >
+                                    <
+                                    <img
+                                        class="object-auto"
+                                        src="src/image/image-details.png"
+                                        alt="Kuala Lumpur, Malaysia"
+                                    />
+                                </div>
+                            </div>
+                            <p class="font-public-sans text-secondary-600">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Numquam nulla laborum
+                                molestias totam qui expedita incidunt, rerum
+                                iste illo voluptate ducimus labore amet itaque
+                                voluptatum quaerat doloribus distinctio magni
+                                fugit atque, ipsam possimus. Eius sed est ab
+                                cum? Voluptas laudantium inventore ipsam
+                                cupiditate iusto, vel alias ea unde facere
+                                accusantium ut maxime modi nihil nobis veritatis
+                                voluptate commodi architecto exercitaasdastionem
+                                tempora! Rerum repellendus dolor autem, nemo
+                                accusamus molestiae ab id mollitia ipsum tempore
+                                nobis placeat est libero veritatis minima
+                                asperiores nihil necessitatibus odit fugiat!
+                                Accusantium!
+                            </p>
+                        </div>
+                    </section>
+
+                    <!-- * Informations Section * -->
+                    <section class="w-8/12 lg:w-4/12">
+                        <div
+                            class="rounded-lg border border-secondary-200 bg-coolGray-100 overflow-hidden"
+                        >
+                            <div class="p-8 leading-relaxed space-y-4">
+                                <div class="space-y-2">
+                                    <h2
+                                        class="text-3xl font-garamond text-secondary-600 font-medium"
+                                    >
+                                        Informations
+                                    </h2>
+                                    <ul
+                                        class="font-public-sans font-medium text-secondary-700 space-y-1"
+                                    >
+                                        <li class="flex justify-between">
+                                            <p>Date of Departure</p>
+                                            <p>30/02/2024</p>
+                                        </li>
+                                        <li class="flex justify-between">
+                                            <p>Durations</p>
+                                            <p>5D 4N</p>
+                                        </li>
+                                        <li class="flex justify-between">
+                                            <p>Type of Trip</p>
+                                            <p>Open Public</p>
+                                        </li>
+                                        <li class="flex justify-between">
+                                            <p>Price</p>
+                                            <p>$700/Person</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="space-y-4">
+                                    <h2
+                                        class="text-3xl font-garamond text-secondary-600 font-medium"
+                                    >
+                                        Members are Going
+                                    </h2>
+                                    <div class="flex justify-center space-x-4">
+                                        <img
+                                            class="object-cover w-10 xl:w-12 h-10 xl:h-12 mx-2 rounded-full"
+                                            src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                                            alt="Profile image"
+                                        />
+                                        <img
+                                            class="object-cover w-10 xl:w-12 h-10 xl:h-12 mx-2 rounded-full"
+                                            src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                                            alt="Profile image"
+                                        />
+                                        <img
+                                            class="object-cover w-10 xl:w-12 h-10 xl:h-12 mx-2 rounded-full"
+                                            src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                                            alt="Profile image"
+                                        />
+                                        <img
+                                            class="object-cover w-10 xl:w-12 h-10 xl:h-12 mx-2 rounded-full"
+                                            src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                                            alt="Profile image"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                class="bg-secondary-500 font-public-sans text-white py-4 w-full font-medium text-xl hover:bg-secondary-600 transition-all duration-500"
+                            >
+                                Join Now
+                            </button>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- * Contact Us Section * -->
+                <section class="container mx-auto py-24 md:px-8">
+                    <div
+                        class="flex flex-col md:flex-row items-center justify-center xl:justify-between flex-wrap md:space-y-10 xl:space-y-0 space-y-8"
+                    >
+                        <div
+                            class="flex justify-between items-start md:space-x-32 space-x-8"
+                        >
+                            <div class="font-public-sans">
+                                <h5 class="text-xl leading-loose">
+                                    Media Sosial
+                                </h5>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="underline"
+                                            >Facebook</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#" class="underline"
+                                            >Twitter</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#" class="underline"
+                                            >Instagram</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="font-public-sans">
+                                <h5 class="text-xl leading-loose">
+                                    Perusahaan
+                                </h5>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="underline"
+                                            >Tentang Kami</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#" class="underline">Berita</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="underline">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="underline"
+                                            >Promosi</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="font-public-sans">
+                                <h5 class="text-xl leading-loose">Bantuan</h5>
+                                <ul>
+                                    <li>
+                                        <a href="#" class="underline"
+                                            >Cara Pembayaran</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a href="#" class="underline">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="underline"
+                                            >Syarat dan Ketentuan</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="sm:w-128 w-full">
+                                <div
+                                    class="bg-primary rounded-lg overflow-hidden shadow-lg"
+                                >
+                                    <div class="p-6 space-y-4">
+                                        <div
+                                            class="leading-relaxed text-lg font-public-sans text-secondary-600"
+                                        >
+                                            Ingin mendapatkan harga paket travel
+                                            termurah?
+                                            <br />
+                                            Dapatkan info promo dan penawaran
+                                            ekslusif dari kami!
+                                        </div>
+                                        <div
+                                            class="flex items-center justify-between"
+                                        >
+                                            <input
+                                                type="email"
+                                                name="email"
+                                                class="w-full border-secondary-400 rounded shadow-sm focus:border-secondary-500 focus:ring-secondary-600 focus:ring-offset-2"
+                                                placeholder="Email"
+                                                autocomplete="email"
+                                            />
+                                            <button
+                                                class="bg-secondary-500 font-public-sans shadow-md hover:shadow-none text-white py-2 ml-4 px-8 rounded-md hover:bg-secondary-600 transition-all duration-500"
+                                            >
+                                                Search
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- * Footer Section * -->
+            <footer class="bg-secondary-600 h-auto py-2">
+                <p class="font-public-sans text-white text-center align-middle">
+                    2021 Copyright travelagent.id | Made by Raihan Adam
+                </p>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    </body>
+</html>
